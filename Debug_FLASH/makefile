@@ -38,23 +38,23 @@ endif
 
 # Add inputs and outputs from these tool invocations to the build variables 
 SECONDARY_SIZE += \
-SMART_CAN.siz \
+S32K144_Smart_BMS.siz \
 
 
 # All Target
-all: SMART_CAN.elf secondary-outputs
+all: S32K144_Smart_BMS.elf secondary-outputs
 
 # Tool invocations
-SMART_CAN.elf: $(OBJS) D:\S32\s32_2_2\S32DS\software\S32SDK_S32K1xx_RTM_3.0.0\platform\devices\S32K144\linker\gcc\S32K144_64_flash.ld $(USER_OBJS)
+S32K144_Smart_BMS.elf: $(OBJS) D:\S32\s32_2_2\S32DS\software\S32SDK_S32K1xx_RTM_3.0.0\platform\devices\S32K144\linker\gcc\S32K144_64_flash.ld $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: Standard S32DS C Linker'
-	arm-none-eabi-gcc -o "SMART_CAN.elf" "@SMART_CAN.args"  $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -o "S32K144_Smart_BMS.elf" "@S32K144_Smart_BMS.args"  $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
-SMART_CAN.siz: SMART_CAN.elf
+S32K144_Smart_BMS.siz: S32K144_Smart_BMS.elf
 	@echo 'Invoking: Standard S32DS Print Size'
-	arm-none-eabi-size --format=berkeley SMART_CAN.elf
+	arm-none-eabi-size --format=berkeley S32K144_Smart_BMS.elf
 	@echo 'Finished building: $@'
 	@echo ' '
 

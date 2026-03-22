@@ -145,7 +145,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x10 ./Generated_Code/Cpu.o
  .debug_macro   0x00000000       0x10 ./Generated_Code/Cpu.o
  .debug_line    0x00000000      0x6a4 ./Generated_Code/Cpu.o
- .debug_str     0x00000000    0x700b1 ./Generated_Code/Cpu.o
+ .debug_str     0x00000000    0x700b9 ./Generated_Code/Cpu.o
  .comment       0x00000000       0xa1 ./Generated_Code/Cpu.o
  .ARM.attributes
                 0x00000000       0x39 ./Generated_Code/Cpu.o
@@ -477,7 +477,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x10 ./Generated_Code/csec1.o
  .debug_macro   0x00000000       0x10 ./Generated_Code/csec1.o
  .debug_line    0x00000000      0x6a6 ./Generated_Code/csec1.o
- .debug_str     0x00000000    0x700b3 ./Generated_Code/csec1.o
+ .debug_str     0x00000000    0x700bb ./Generated_Code/csec1.o
  .comment       0x00000000       0xa1 ./Generated_Code/csec1.o
  .ARM.attributes
                 0x00000000       0x39 ./Generated_Code/csec1.o
@@ -581,7 +581,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x16 ./Generated_Code/dmaController1.o
  .debug_macro   0x00000000       0x16 ./Generated_Code/dmaController1.o
  .debug_line    0x00000000      0x6af ./Generated_Code/dmaController1.o
- .debug_str     0x00000000    0x700bc ./Generated_Code/dmaController1.o
+ .debug_str     0x00000000    0x700c4 ./Generated_Code/dmaController1.o
  .comment       0x00000000       0xa1 ./Generated_Code/dmaController1.o
  .ARM.attributes
                 0x00000000       0x39 ./Generated_Code/dmaController1.o
@@ -831,7 +831,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x10 ./Generated_Code/lpuart1.o
  .debug_macro   0x00000000       0x16 ./Generated_Code/lpuart1.o
  .debug_line    0x00000000      0x6a8 ./Generated_Code/lpuart1.o
- .debug_str     0x00000000    0x700b5 ./Generated_Code/lpuart1.o
+ .debug_str     0x00000000    0x700bd ./Generated_Code/lpuart1.o
  .comment       0x00000000       0xa1 ./Generated_Code/lpuart1.o
  .ARM.attributes
                 0x00000000       0x39 ./Generated_Code/lpuart1.o
@@ -3425,7 +3425,7 @@ LOAD d:/s32/s32_2_2/s32ds/build_tools/gcc_v6.3/gcc-6.3-arm32-eabi/bin/../lib/gcc
  .ARM.attributes
                 0x0000069a       0x22 d:/s32/s32_2_2/s32ds/build_tools/gcc_v6.3/gcc-6.3-arm32-eabi/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a(_dvmd_tls.o)
                 0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region m_data_2 overflowed with stack and heap)
-OUTPUT(SMART_CAN.elf elf32-littlearm)
+OUTPUT(S32K144_Smart_BMS.elf elf32-littlearm)
 
 .debug_info     0x00000000    0x3a775
  .debug_info    0x00000000     0x30c3 ./Generated_Code/adConv1.o
@@ -3587,7 +3587,7 @@ OUTPUT(SMART_CAN.elf elf32-littlearm)
  .debug_macro   0x0001167e       0xfb ./SDK/rtos/osif/osif_baremetal.o
  .debug_macro   0x00011779      0x2cd ./Sources/main.o
 
-.debug_line     0x00000000     0xe5c9
+.debug_line     0x00000000     0xe5d1
  .debug_line    0x00000000      0x6a8 ./Generated_Code/adConv1.o
  .debug_line    0x000006a8      0x6a8 ./Generated_Code/canCom1.o
  .debug_line    0x00000d50      0x6aa ./Generated_Code/clockMan1.o
@@ -3615,64 +3615,65 @@ OUTPUT(SMART_CAN.elf elf32-littlearm)
  .debug_line    0x0000cb9d      0x6df ./SDK/platform/drivers/src/pins/pins_driver.o
  .debug_line    0x0000d27c      0x59e ./SDK/platform/drivers/src/pins/pins_port_hw_access.o
  .debug_line    0x0000d81a      0x638 ./SDK/rtos/osif/osif_baremetal.o
- .debug_line    0x0000de52      0x777 ./Sources/main.o
+ .debug_line    0x0000de52      0x77f ./Sources/main.o
 
-.debug_str      0x00000000    0x7a699
- .debug_str     0x00000000    0x6fae1 ./Generated_Code/adConv1.o
-                              0x700b5 (size before relaxing)
- .debug_str     0x0006fae1       0x1c ./Generated_Code/canCom1.o
-                              0x700b5 (size before relaxing)
- .debug_str     0x0006fafd      0x4b6 ./Generated_Code/clockMan1.o
-                              0x7054f (size before relaxing)
- .debug_str     0x0006ffb3       0x1b ./Generated_Code/lpi2c1.o
-                              0x700b4 (size before relaxing)
- .debug_str     0x0006ffce       0x1a ./Generated_Code/lpit1.o
-                              0x700b3 (size before relaxing)
- .debug_str     0x0006ffe8       0x1c ./Generated_Code/pin_mux.o
-                              0x68c9d (size before relaxing)
- .debug_str     0x00070004       0xaf ./Project_Settings/Startup_Code/startup_S32K144.o
- .debug_str     0x000700b3      0x1fc ./SDK/platform/devices/S32K144/startup/system_S32K144.o
+.debug_str      0x00000000    0x7a66c
+ .debug_str     0x00000000    0x6fae9 ./Generated_Code/adConv1.o
+                              0x700bd (size before relaxing)
+ .debug_str     0x0006fae9       0x1c ./Generated_Code/canCom1.o
+                              0x700bd (size before relaxing)
+ .debug_str     0x0006fb05      0x4b6 ./Generated_Code/clockMan1.o
+                              0x70557 (size before relaxing)
+ .debug_str     0x0006ffbb       0x1b ./Generated_Code/lpi2c1.o
+                              0x700bc (size before relaxing)
+ .debug_str     0x0006ffd6       0x1a ./Generated_Code/lpit1.o
+                              0x700bb (size before relaxing)
+ .debug_str     0x0006fff0       0x1c ./Generated_Code/pin_mux.o
+                              0x68ca5 (size before relaxing)
+ .debug_str     0x0007000c       0x7a ./Project_Settings/Startup_Code/startup_S32K144.o
+                                 0xa7 (size before relaxing)
+ .debug_str     0x00070086      0x1fc ./SDK/platform/devices/S32K144/startup/system_S32K144.o
                               0x68839 (size before relaxing)
- .debug_str     0x000702af      0x397 ./SDK/platform/devices/startup.o
+ .debug_str     0x00070282      0x397 ./SDK/platform/devices/startup.o
                               0x689ab (size before relaxing)
- .debug_str     0x00070646     0x10b6 ./SDK/platform/drivers/src/adc/adc_driver.o
+ .debug_str     0x00070619     0x10b6 ./SDK/platform/drivers/src/adc/adc_driver.o
                               0x6ae18 (size before relaxing)
- .debug_str     0x000716fc     0x1d37 ./SDK/platform/drivers/src/clock/S32K1xx/clock_S32K1xx.o
+ .debug_str     0x000716cf     0x1d37 ./SDK/platform/drivers/src/clock/S32K1xx/clock_S32K1xx.o
                               0x6c9d4 (size before relaxing)
- .debug_str     0x00073433      0xaa0 ./SDK/platform/drivers/src/csec/csec_driver.o
+ .debug_str     0x00073406      0xaa0 ./SDK/platform/drivers/src/csec/csec_driver.o
                               0x6d861 (size before relaxing)
- .debug_str     0x00073ed3       0x88 ./SDK/platform/drivers/src/csec/csec_hw_access.o
+ .debug_str     0x00073ea6       0x88 ./SDK/platform/drivers/src/csec/csec_hw_access.o
                               0x6c28c (size before relaxing)
- .debug_str     0x00073f5b     0x11be ./SDK/platform/drivers/src/edma/edma_driver.o
+ .debug_str     0x00073f2e     0x11be ./SDK/platform/drivers/src/edma/edma_driver.o
                               0x6b742 (size before relaxing)
- .debug_str     0x00075119       0x76 ./SDK/platform/drivers/src/edma/edma_hw_access.o
+ .debug_str     0x000750ec       0x76 ./SDK/platform/drivers/src/edma/edma_hw_access.o
                               0x68f0a (size before relaxing)
- .debug_str     0x0007518f      0x192 ./SDK/platform/drivers/src/edma/edma_irq.o
+ .debug_str     0x00075162      0x192 ./SDK/platform/drivers/src/edma/edma_irq.o
                               0x68c15 (size before relaxing)
- .debug_str     0x00075321     0x1e09 ./SDK/platform/drivers/src/flexcan/flexcan_driver.o
+ .debug_str     0x000752f4     0x1e09 ./SDK/platform/drivers/src/flexcan/flexcan_driver.o
                               0x6c904 (size before relaxing)
- .debug_str     0x0007712a      0x4db ./SDK/platform/drivers/src/flexcan/flexcan_hw_access.o
+ .debug_str     0x000770fd      0x4db ./SDK/platform/drivers/src/flexcan/flexcan_hw_access.o
                               0x6ad7f (size before relaxing)
- .debug_str     0x00077605      0x1ac ./SDK/platform/drivers/src/flexcan/flexcan_irq.o
+ .debug_str     0x000775d8      0x1ac ./SDK/platform/drivers/src/flexcan/flexcan_irq.o
                               0x6873b (size before relaxing)
- .debug_str     0x000777b1      0x18e ./SDK/platform/drivers/src/interrupt/interrupt_manager.o
+ .debug_str     0x00077784      0x18e ./SDK/platform/drivers/src/interrupt/interrupt_manager.o
                               0x68e2a (size before relaxing)
- .debug_str     0x0007793f     0x1a5f ./SDK/platform/drivers/src/lpi2c/lpi2c_driver.o
+ .debug_str     0x00077912     0x1a5f ./SDK/platform/drivers/src/lpi2c/lpi2c_driver.o
                               0x6c0e6 (size before relaxing)
- .debug_str     0x0007939e       0x9f ./SDK/platform/drivers/src/lpi2c/lpi2c_hw_access.o
+ .debug_str     0x00079371       0x9f ./SDK/platform/drivers/src/lpi2c/lpi2c_hw_access.o
                               0x68e60 (size before relaxing)
- .debug_str     0x0007943d       0x9e ./SDK/platform/drivers/src/lpi2c/lpi2c_irq.o
+ .debug_str     0x00079410       0x9e ./SDK/platform/drivers/src/lpi2c/lpi2c_irq.o
                               0x68a05 (size before relaxing)
- .debug_str     0x000794db      0x686 ./SDK/platform/drivers/src/lpit/lpit_driver.o
+ .debug_str     0x000794ae      0x686 ./SDK/platform/drivers/src/lpit/lpit_driver.o
                               0x6a61f (size before relaxing)
- .debug_str     0x00079b61      0x638 ./SDK/platform/drivers/src/pins/pins_driver.o
+ .debug_str     0x00079b34      0x638 ./SDK/platform/drivers/src/pins/pins_driver.o
                               0x69b07 (size before relaxing)
- .debug_str     0x0007a199      0x1c2 ./SDK/platform/drivers/src/pins/pins_port_hw_access.o
+ .debug_str     0x0007a16c      0x1c2 ./SDK/platform/drivers/src/pins/pins_port_hw_access.o
                               0x68fef (size before relaxing)
- .debug_str     0x0007a35b      0x19d ./SDK/rtos/osif/osif_baremetal.o
+ .debug_str     0x0007a32e      0x19d ./SDK/rtos/osif/osif_baremetal.o
                               0x69959 (size before relaxing)
- .debug_str     0x0007a4f8      0x1a1 ./Sources/main.o
-                              0x70b81 (size before relaxing)
+ .debug_str     0x0007a4cb      0x1a1 ./Sources/main.o
+                              0x70b89 (size before relaxing)
 
 .comment        0x00000000       0xa0
  .comment       0x00000000       0xa0 ./Generated_Code/adConv1.o

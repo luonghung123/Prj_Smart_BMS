@@ -1,8 +1,8 @@
 -std=c99
 -DCPU_S32K144HFT0VLLT
 -DDEV_ERROR_DETECT
--I"D:/S32/s32_2_2/SMART_CAN/Sources"
--I"D:/S32/s32_2_2/SMART_CAN/Generated_Code"
+-I"D:/S32/s32_2_2/S32K144_Smart_BMS/Sources"
+-I"D:/S32/s32_2_2/S32K144_Smart_BMS/Generated_Code"
 -I"D:/S32/s32_2_2/S32DS/software/S32SDK_S32K1xx_RTM_3.0.0/platform/devices/S32K144/include"
 -I"D:/S32/s32_2_2/S32DS/software/S32SDK_S32K1xx_RTM_3.0.0/platform/devices/S32K144/startup"
 -I"D:/S32/s32_2_2/S32DS/software/S32SDK_S32K1xx_RTM_3.0.0/platform/devices/S32K144"
