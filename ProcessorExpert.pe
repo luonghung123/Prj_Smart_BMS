@@ -3,7 +3,7 @@
   <Header>
     <Name>S32K144_Smart_BMS</Name>
     <SavedBy>B55288</SavedBy>
-    <ModificationStamp>83</ModificationStamp>
+    <ModificationStamp>87</ModificationStamp>
     <Date>2015-10-14</Date>
     <IDE>Eclipse IDE</IDE>
     <PEversion>1.12.2.RT7_b1743-0713</PEversion>
@@ -29,7 +29,7 @@
     <UseExistingModules>true</UseExistingModules>
     <RenamePeripheries>false</RenamePeripheries>
     <Autodependency>true</Autodependency>
-    <ProjectCompNumb>103</ProjectCompNumb>
+    <ProjectCompNumb>106</ProjectCompNumb>
     <DelUnusedPreviouslyGenFiles>true</DelUnusedPreviouslyGenFiles>
     <GeneratedCodeFrozen>false</GeneratedCodeFrozen>
     <AssignInitComponentNameToPrph>true</AssignInitComponentNameToPrph>
@@ -779,13 +779,13 @@
       <Value6>true</Value6>
       <ItemId7>96</ItemId7>
       <Value7>true</Value7>
-      <ItemId8>99</ItemId8>
+      <ItemId8>100</ItemId8>
       <Value8>true</Value8>
-      <ItemId9>100</ItemId9>
+      <ItemId9>101</ItemId9>
       <Value9>true</Value9>
-      <ItemId10>101</ItemId10>
+      <ItemId10>102</ItemId10>
       <Value10>true</Value10>
-      <ItemId11>102</ItemId11>
+      <ItemId11>105</ItemId11>
       <Value11>true</Value11>
     </BoolList_BeanConfig>
     <BoolList_TaskConfig>
@@ -878,13 +878,13 @@
       <Value6>true</Value6>
       <ItemId7>96</ItemId7>
       <Value7>true</Value7>
-      <ItemId8>99</ItemId8>
+      <ItemId8>100</ItemId8>
       <Value8>true</Value8>
-      <ItemId9>100</ItemId9>
+      <ItemId9>101</ItemId9>
       <Value9>true</Value9>
-      <ItemId10>101</ItemId10>
+      <ItemId10>102</ItemId10>
       <Value10>true</Value10>
-      <ItemId11>102</ItemId11>
+      <ItemId11>105</ItemId11>
       <Value11>true</Value11>
     </BoolList_BeanConfig>
     <BoolList_TaskConfig>
@@ -4036,21 +4036,21 @@
         <ItemSymbol>LPUART1_lpuart_rx</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <Value>&lt;Automatic&gt;</Value>
+        <Value>PTC6</Value>
         <SharedPrphMode>false</SharedPrphMode>
       </ItemState>
       <ItemState>
         <ItemSymbol>LPUART1_lpuart_tx</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <Value>&lt;Automatic&gt;</Value>
+        <Value>PTC7</Value>
         <SharedPrphMode>false</SharedPrphMode>
       </ItemState>
       <ItemState>
         <ItemSymbol>LPUART1_lpuart_tx_Dir</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <Value>&lt;Automatic&gt;</Value>
+        <Value>Output</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>LPUART2_UserName</ItemSymbol>
@@ -16281,7 +16281,7 @@
         <ItemSymbol>ProjectComponentsCountChanged</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <Value>2</Value>
+        <Value>1</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>ModuleName_ADC</ItemSymbol>
@@ -19973,7 +19973,7 @@
       </ItemState>
       <ItemState>
         <ItemSymbol>chnRequest0</ItemSymbol>
-        <ReadOnly>true</ReadOnly>
+        <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
         <Index>1</Index>
@@ -19982,13 +19982,13 @@
       </ItemState>
       <ItemState>
         <ItemSymbol>CallbackName0</ItemSymbol>
-        <ReadOnly>true</ReadOnly>
+        <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <Value>NULL</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>CallbackParam0</ItemSymbol>
-        <ReadOnly>true</ReadOnly>
+        <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <Value>NULL</Value>
       </ItemState>
@@ -20040,7 +20040,7 @@
       </ItemState>
       <ItemState>
         <ItemSymbol>chnRequest1</ItemSymbol>
-        <ReadOnly>true</ReadOnly>
+        <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
         <TypeSpecNameState>type_edma_channel_request_s32k144</TypeSpecNameState>
@@ -20049,13 +20049,13 @@
       </ItemState>
       <ItemState>
         <ItemSymbol>CallbackName1</ItemSymbol>
-        <ReadOnly>true</ReadOnly>
+        <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <Value>NULL</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>CallbackParam1</ItemSymbol>
-        <ReadOnly>true</ReadOnly>
+        <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <Value>NULL</Value>
       </ItemState>
@@ -22403,383 +22403,6 @@
   </Bean>
   <Bean>
     <Repository>file:/${ProcessorExpert_loc}/../../S32DS/software/S32SDK_S32K1xx_RTM_3.0.0/tools/pex/Repositories/SDK_S32K1xx_15_Repository</Repository>
-    <ComponentUUID>com.freescale.processorexpert.ksdk.lpuart</ComponentUUID>
-    <BeanType>lpuart</BeanType>
-    <Name>lpuart1</Name>
-    <CompNumb>99</CompNumb>
-    <CompEnabled>true</CompEnabled>
-    <GenCodeMode>ALWAYS_WRITE</GenCodeMode>
-    <IconName>PHONE_LDD</IconName>
-    <UserFolderName />
-    <Comment lines_count="0" />
-    <Template />
-    <BeanVersion>SDK_S32K1xx_15</BeanVersion>
-    <LightErrorsIgnored>false</LightErrorsIgnored>
-    <Properties>
-      <ItemState>
-        <ItemSymbol>DeviceName</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <Value>lpuart1</Value>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>PeriphDevice</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <Value>LPUART0</Value>
-        <SharedPrphMode>false</SharedPrphMode>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>CompVersion</ItemSymbol>
-        <Value>S32K144_SDK01</Value>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>VersionSpecificItem</ItemSymbol>
-        <ListItemCount>1</ListItemCount>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>Settings</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>PropertiesItem</ItemSymbol>
-        <ListItemCount>1</ListItemCount>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>Configuration_group</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <Index>0</Index>
-        <Expanded>true</Expanded>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>InitStateStruct</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <Value>lpuart1_State</Value>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>Configuration</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <ListItemCount>1</ListItemCount>
-        <UserReadOnly>false</UserReadOnly>
-        <Expanded>true</Expanded>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>Configuration_0</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>true</Value>
-        <Expanded>true</Expanded>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>Configuration_NAME0</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <Value>lpuart1_InitConfig0</Value>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>Configuration_TYPE0</ItemSymbol>
-        <Value>lpuart_user_config_t</Value>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>Configuration_READONLY0</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>TransferType0</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>1</Index>
-        <EnumSymbVal>LPUART_USING_DMA</EnumSymbVal>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>BaudRate0</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>9600</Value>
-        <Base>DEC</Base>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>clockIndex0</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>0</Value>
-        <Base>DEC</Base>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>ActualBaudRate0</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>9603</Value>
-        <Base>DEC</Base>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>Parity0</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <EnumSymbVal>LPUART_PARITY_DISABLED</EnumSymbVal>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>StopBits0</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <EnumSymbVal>LPUART_ONE_STOP_BIT</EnumSymbVal>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>DataBits0</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <EnumSymbVal>LPUART_8_BITS_PER_CHAR</EnumSymbVal>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>RxDMAChannel0</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <EnumSymbVal>0U</EnumSymbVal>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>TxDMAChannel0</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <TypeSpecNameState>DMAchannel_t</TypeSpecNameState>
-        <Index>2</Index>
-        <EnumSymbVal>2U</EnumSymbVal>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>LinkItem</ItemSymbol>
-        <ListItemCount>1</ListItemCount>
-        <ItemsTypeState>Beans\lpuart\Items\S32K144_SDK01\lpuart_links.item</ItemsTypeState>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>LinkGrp</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <Expanded>true</Expanded>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>Link1</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <Value>clockMan1</Value>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>Link2</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <Value>dmaController1</Value>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>Link3</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-        <Value>osif1</Value>
-      </ItemState>
-    </Properties>
-    <Methods>
-      <ItemState>
-        <ItemSymbol>SdkSpecificMethods</ItemSymbol>
-        <ListItemCount>1</ListItemCount>
-        <ItemsTypeState>Beans\lpuart\Items\S32K144_SDK01\lpuart_methods.item</ItemsTypeState>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>lpuart_irqgroup</ItemSymbol>
-        <ReadOnly>false</ReadOnly>
-        <UserReadOnly>false</UserReadOnly>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>LPUART_DRV_GetDefaultConfig</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>LPUART_DRV_GetDefaultConfig</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>LPUART_DRV_Init</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>LPUART_DRV_Init</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>LPUART_DRV_Deinit</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>LPUART_DRV_Deinit</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>LPUART_DRV_InstallRxCallback</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>LPUART_DRV_InstallRxCallback</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>LPUART_DRV_InstallTxCallback</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>LPUART_DRV_InstallTxCallback</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>LPUART_DRV_SendDataBlocking</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>LPUART_DRV_SendDataBlocking</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>LPUART_DRV_SendDataPolling</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>LPUART_DRV_SendDataPolling</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>LPUART_DRV_SendData</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>LPUART_DRV_SendData</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>LPUART_DRV_GetTransmitStatus</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>LPUART_DRV_GetTransmitStatus</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>LPUART_DRV_AbortSendingData</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>LPUART_DRV_AbortSendingData</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>LPUART_DRV_ReceiveDataBlocking</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>LPUART_DRV_ReceiveDataBlocking</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>LPUART_DRV_ReceiveDataPolling</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>LPUART_DRV_ReceiveDataPolling</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>LPUART_DRV_ReceiveData</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>LPUART_DRV_ReceiveData</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>LPUART_DRV_GetReceiveStatus</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>LPUART_DRV_GetReceiveStatus</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>LPUART_DRV_AbortReceivingData</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>LPUART_DRV_AbortReceivingData</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>LPUART_DRV_SetBaudRate</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>LPUART_DRV_SetBaudRate</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>LPUART_DRV_GetBaudRate</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>LPUART_DRV_GetBaudRate</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>LPUART_DRV_SetTxBuffer</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>LPUART_DRV_SetTxBuffer</UsrMethodName>
-      </ItemState>
-      <ItemState>
-        <ItemSymbol>LPUART_DRV_SetRxBuffer</ItemSymbol>
-        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>0</Index>
-        <Value>true</Value>
-        <LastSelection>true</LastSelection>
-        <LastUserSel>always</LastUserSel>
-        <UsrMethodName>LPUART_DRV_SetRxBuffer</UsrMethodName>
-      </ItemState>
-    </Methods>
-    <Events />
-  </Bean>
-  <Bean>
-    <Repository>file:/${ProcessorExpert_loc}/../../S32DS/software/S32SDK_S32K1xx_RTM_3.0.0/tools/pex/Repositories/SDK_S32K1xx_15_Repository</Repository>
     <ComponentUUID>com.freescale.processorexpert.ksdk.lpi2c</ComponentUUID>
     <BeanType>lpi2c</BeanType>
     <Name>lpi2c1</Name>
@@ -23510,7 +23133,7 @@
       <ItemState>
         <ItemSymbol>adcChnCfg</ItemSymbol>
         <ReadOnly>false</ReadOnly>
-        <ListItemCount>4</ListItemCount>
+        <ListItemCount>5</ListItemCount>
         <UserReadOnly>false</UserReadOnly>
         <Expanded>true</Expanded>
       </ItemState>
@@ -23640,8 +23263,8 @@
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
         <TypeSpecNameState>S32K1xx_SDK01_typeadc_inputchannel_16_t</TypeSpecNameState>
-        <Index>6</Index>
-        <EnumSymbVal>ADC_INPUTCHAN_EXT6</EnumSymbVal>
+        <Index>2</Index>
+        <EnumSymbVal>ADC_INPUTCHAN_EXT2</EnumSymbVal>
       </ItemState>
       <ItemState>
         <ItemSymbol>adcChnCfg_3</ItemSymbol>
@@ -23683,8 +23306,51 @@
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
         <TypeSpecNameState>S32K1xx_SDK01_typeadc_inputchannel_16_t</TypeSpecNameState>
-        <Index>7</Index>
-        <EnumSymbVal>ADC_INPUTCHAN_EXT7</EnumSymbVal>
+        <Index>3</Index>
+        <EnumSymbVal>ADC_INPUTCHAN_EXT3</EnumSymbVal>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>adcChnCfg_4</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Value>true</Value>
+        <Expanded>true</Expanded>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>adcChnCfg_NAME4</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <Value>adConv1_ChnConfig4</Value>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>adcChnCfg_TYPE4</ItemSymbol>
+        <Value>adc_chan_config_t</Value>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>adcChnCfg_READONLY4</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Index>0</Index>
+        <Value>true</Value>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>Interrupt4</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Index>1</Index>
+        <Value>false</Value>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>InputChannel4</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <TypeSpecNameState>S32K1xx_SDK01_typeadc_inputchannel_16_t</TypeSpecNameState>
+        <Index>4</Index>
+        <EnumSymbVal>ADC_INPUTCHAN_EXT4</EnumSymbVal>
       </ItemState>
       <ItemState>
         <ItemSymbol>adcHwCompCfg_group</ItemSymbol>
@@ -24482,6 +24148,383 @@
         <LastSelection>true</LastSelection>
         <LastUserSel>always</LastUserSel>
         <UsrMethodName>LPIT_DRV_ClearInterruptFlagTimerChannels</UsrMethodName>
+      </ItemState>
+    </Methods>
+    <Events />
+  </Bean>
+  <Bean>
+    <Repository>file:/${ProcessorExpert_loc}/../../S32DS/software/S32SDK_S32K1xx_RTM_3.0.0/tools/pex/Repositories/SDK_S32K1xx_15_Repository</Repository>
+    <ComponentUUID>com.freescale.processorexpert.ksdk.lpuart</ComponentUUID>
+    <BeanType>lpuart</BeanType>
+    <Name>lpuart1</Name>
+    <CompNumb>105</CompNumb>
+    <CompEnabled>true</CompEnabled>
+    <GenCodeMode>ALWAYS_WRITE</GenCodeMode>
+    <IconName>PHONE_LDD</IconName>
+    <UserFolderName />
+    <Comment lines_count="0" />
+    <Template />
+    <BeanVersion>SDK_S32K1xx_15</BeanVersion>
+    <LightErrorsIgnored>false</LightErrorsIgnored>
+    <Properties>
+      <ItemState>
+        <ItemSymbol>DeviceName</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <Value>lpuart1</Value>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>PeriphDevice</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <Value>LPUART1</Value>
+        <SharedPrphMode>false</SharedPrphMode>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>CompVersion</ItemSymbol>
+        <Value>S32K144_SDK01</Value>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>VersionSpecificItem</ItemSymbol>
+        <ListItemCount>1</ListItemCount>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>Settings</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>PropertiesItem</ItemSymbol>
+        <ListItemCount>1</ListItemCount>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>Configuration_group</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <Index>0</Index>
+        <Expanded>true</Expanded>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>InitStateStruct</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <Value>lpuart1_State</Value>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>Configuration</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <ListItemCount>1</ListItemCount>
+        <UserReadOnly>false</UserReadOnly>
+        <Expanded>true</Expanded>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>Configuration_0</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Value>true</Value>
+        <Expanded>true</Expanded>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>Configuration_NAME0</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <Value>lpuart1_InitConfig0</Value>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>Configuration_TYPE0</ItemSymbol>
+        <Value>lpuart_user_config_t</Value>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>Configuration_READONLY0</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Index>0</Index>
+        <Value>true</Value>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>TransferType0</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Index>0</Index>
+        <EnumSymbVal>LPUART_USING_INTERRUPTS</EnumSymbVal>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>BaudRate0</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Value>115200</Value>
+        <Base>DEC</Base>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>clockIndex0</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Value>0</Value>
+        <Base>DEC</Base>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>ActualBaudRate0</ItemSymbol>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Value>115942</Value>
+        <Base>DEC</Base>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>Parity0</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Index>0</Index>
+        <EnumSymbVal>LPUART_PARITY_DISABLED</EnumSymbVal>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>StopBits0</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Index>0</Index>
+        <EnumSymbVal>LPUART_ONE_STOP_BIT</EnumSymbVal>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>DataBits0</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Index>0</Index>
+        <EnumSymbVal>LPUART_8_BITS_PER_CHAR</EnumSymbVal>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>RxDMAChannel0</ItemSymbol>
+        <ReadOnly>true</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Index>0</Index>
+        <EnumSymbVal>0U</EnumSymbVal>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>TxDMAChannel0</ItemSymbol>
+        <ReadOnly>true</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <TypeSpecNameState>DMAchannel_t</TypeSpecNameState>
+        <Index>0</Index>
+        <EnumSymbVal>0U</EnumSymbVal>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>LinkItem</ItemSymbol>
+        <ListItemCount>1</ListItemCount>
+        <ItemsTypeState>Beans\lpuart\Items\S32K144_SDK01\lpuart_links.item</ItemsTypeState>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>LinkGrp</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <Expanded>true</Expanded>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>Link1</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <Value>clockMan1</Value>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>Link2</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <Value>dmaController1</Value>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>Link3</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+        <Value>osif1</Value>
+      </ItemState>
+    </Properties>
+    <Methods>
+      <ItemState>
+        <ItemSymbol>SdkSpecificMethods</ItemSymbol>
+        <ListItemCount>1</ListItemCount>
+        <ItemsTypeState>Beans\lpuart\Items\S32K144_SDK01\lpuart_methods.item</ItemsTypeState>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>lpuart_irqgroup</ItemSymbol>
+        <ReadOnly>false</ReadOnly>
+        <UserReadOnly>false</UserReadOnly>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>LPUART_DRV_GetDefaultConfig</ItemSymbol>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Index>0</Index>
+        <Value>true</Value>
+        <LastSelection>true</LastSelection>
+        <LastUserSel>always</LastUserSel>
+        <UsrMethodName>LPUART_DRV_GetDefaultConfig</UsrMethodName>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>LPUART_DRV_Init</ItemSymbol>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Index>0</Index>
+        <Value>true</Value>
+        <LastSelection>true</LastSelection>
+        <LastUserSel>always</LastUserSel>
+        <UsrMethodName>LPUART_DRV_Init</UsrMethodName>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>LPUART_DRV_Deinit</ItemSymbol>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Index>0</Index>
+        <Value>true</Value>
+        <LastSelection>true</LastSelection>
+        <LastUserSel>always</LastUserSel>
+        <UsrMethodName>LPUART_DRV_Deinit</UsrMethodName>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>LPUART_DRV_InstallRxCallback</ItemSymbol>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Index>0</Index>
+        <Value>true</Value>
+        <LastSelection>true</LastSelection>
+        <LastUserSel>always</LastUserSel>
+        <UsrMethodName>LPUART_DRV_InstallRxCallback</UsrMethodName>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>LPUART_DRV_InstallTxCallback</ItemSymbol>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Index>0</Index>
+        <Value>true</Value>
+        <LastSelection>true</LastSelection>
+        <LastUserSel>always</LastUserSel>
+        <UsrMethodName>LPUART_DRV_InstallTxCallback</UsrMethodName>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>LPUART_DRV_SendDataBlocking</ItemSymbol>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Index>0</Index>
+        <Value>true</Value>
+        <LastSelection>true</LastSelection>
+        <LastUserSel>always</LastUserSel>
+        <UsrMethodName>LPUART_DRV_SendDataBlocking</UsrMethodName>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>LPUART_DRV_SendDataPolling</ItemSymbol>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Index>0</Index>
+        <Value>true</Value>
+        <LastSelection>true</LastSelection>
+        <LastUserSel>always</LastUserSel>
+        <UsrMethodName>LPUART_DRV_SendDataPolling</UsrMethodName>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>LPUART_DRV_SendData</ItemSymbol>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Index>0</Index>
+        <Value>true</Value>
+        <LastSelection>true</LastSelection>
+        <LastUserSel>always</LastUserSel>
+        <UsrMethodName>LPUART_DRV_SendData</UsrMethodName>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>LPUART_DRV_GetTransmitStatus</ItemSymbol>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Index>0</Index>
+        <Value>true</Value>
+        <LastSelection>true</LastSelection>
+        <LastUserSel>always</LastUserSel>
+        <UsrMethodName>LPUART_DRV_GetTransmitStatus</UsrMethodName>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>LPUART_DRV_AbortSendingData</ItemSymbol>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Index>0</Index>
+        <Value>true</Value>
+        <LastSelection>true</LastSelection>
+        <LastUserSel>always</LastUserSel>
+        <UsrMethodName>LPUART_DRV_AbortSendingData</UsrMethodName>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>LPUART_DRV_ReceiveDataBlocking</ItemSymbol>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Index>0</Index>
+        <Value>true</Value>
+        <LastSelection>true</LastSelection>
+        <LastUserSel>always</LastUserSel>
+        <UsrMethodName>LPUART_DRV_ReceiveDataBlocking</UsrMethodName>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>LPUART_DRV_ReceiveDataPolling</ItemSymbol>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Index>0</Index>
+        <Value>true</Value>
+        <LastSelection>true</LastSelection>
+        <LastUserSel>always</LastUserSel>
+        <UsrMethodName>LPUART_DRV_ReceiveDataPolling</UsrMethodName>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>LPUART_DRV_ReceiveData</ItemSymbol>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Index>0</Index>
+        <Value>true</Value>
+        <LastSelection>true</LastSelection>
+        <LastUserSel>always</LastUserSel>
+        <UsrMethodName>LPUART_DRV_ReceiveData</UsrMethodName>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>LPUART_DRV_GetReceiveStatus</ItemSymbol>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Index>0</Index>
+        <Value>true</Value>
+        <LastSelection>true</LastSelection>
+        <LastUserSel>always</LastUserSel>
+        <UsrMethodName>LPUART_DRV_GetReceiveStatus</UsrMethodName>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>LPUART_DRV_AbortReceivingData</ItemSymbol>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Index>0</Index>
+        <Value>true</Value>
+        <LastSelection>true</LastSelection>
+        <LastUserSel>always</LastUserSel>
+        <UsrMethodName>LPUART_DRV_AbortReceivingData</UsrMethodName>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>LPUART_DRV_SetBaudRate</ItemSymbol>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Index>0</Index>
+        <Value>true</Value>
+        <LastSelection>true</LastSelection>
+        <LastUserSel>always</LastUserSel>
+        <UsrMethodName>LPUART_DRV_SetBaudRate</UsrMethodName>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>LPUART_DRV_GetBaudRate</ItemSymbol>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Index>0</Index>
+        <Value>true</Value>
+        <LastSelection>true</LastSelection>
+        <LastUserSel>always</LastUserSel>
+        <UsrMethodName>LPUART_DRV_GetBaudRate</UsrMethodName>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>LPUART_DRV_SetTxBuffer</ItemSymbol>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Index>0</Index>
+        <Value>true</Value>
+        <LastSelection>true</LastSelection>
+        <LastUserSel>always</LastUserSel>
+        <UsrMethodName>LPUART_DRV_SetTxBuffer</UsrMethodName>
+      </ItemState>
+      <ItemState>
+        <ItemSymbol>LPUART_DRV_SetRxBuffer</ItemSymbol>
+        <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
+        <Index>0</Index>
+        <Value>true</Value>
+        <LastSelection>true</LastSelection>
+        <LastUserSel>always</LastUserSel>
+        <UsrMethodName>LPUART_DRV_SetRxBuffer</UsrMethodName>
       </ItemState>
     </Methods>
     <Events />

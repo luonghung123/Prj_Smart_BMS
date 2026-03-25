@@ -16,10 +16,10 @@ Sources/main.o: ../Sources/main.c \
  D:/S32/s32_2_2/S32DS/software/S32SDK_S32K1xx_RTM_3.0.0/platform/drivers/inc/edma_driver.h \
  D:/S32/s32_2_2/S32DS/software/S32SDK_S32K1xx_RTM_3.0.0/platform/drivers/inc/flexcan_driver.h \
  D:/S32/s32_2_2/S32DS/software/S32SDK_S32K1xx_RTM_3.0.0/platform/drivers/inc/edma_driver.h \
- D:/S32/s32_2_2/S32DS/software/S32SDK_S32K1xx_RTM_3.0.0/platform/drivers/inc/lpuart_driver.h \
  D:/S32/s32_2_2/S32DS/software/S32SDK_S32K1xx_RTM_3.0.0/platform/drivers/inc/lpi2c_driver.h \
  D:/S32/s32_2_2/S32DS/software/S32SDK_S32K1xx_RTM_3.0.0/platform/drivers/inc/adc_driver.h \
  D:/S32/s32_2_2/S32DS/software/S32SDK_S32K1xx_RTM_3.0.0/platform/drivers/inc/lpit_driver.h \
+ D:/S32/s32_2_2/S32DS/software/S32SDK_S32K1xx_RTM_3.0.0/platform/drivers/inc/lpuart_driver.h \
  D:/S32/s32_2_2/S32DS/software/S32SDK_S32K1xx_RTM_3.0.0/platform/devices/S32K144/startup/system_S32K144.h \
  D:/S32/s32_2_2/S32K144_Smart_BMS/Generated_Code/pin_mux.h \
  D:/S32/s32_2_2/S32DS/software/S32SDK_S32K1xx_RTM_3.0.0/platform/drivers/inc/pins_driver.h \
@@ -28,16 +28,17 @@ Sources/main.o: ../Sources/main.c \
  D:/S32/s32_2_2/S32K144_Smart_BMS/Generated_Code/csec1.h \
  D:/S32/s32_2_2/S32K144_Smart_BMS/Generated_Code/dmaController1.h \
  D:/S32/s32_2_2/S32K144_Smart_BMS/Generated_Code/canCom1.h \
- D:/S32/s32_2_2/S32K144_Smart_BMS/Generated_Code/lpuart1.h \
  D:/S32/s32_2_2/S32K144_Smart_BMS/Generated_Code/lpi2c1.h \
  D:/S32/s32_2_2/S32K144_Smart_BMS/Generated_Code/adConv1.h \
  D:/S32/s32_2_2/S32K144_Smart_BMS/Generated_Code/lpit1.h \
+ D:/S32/s32_2_2/S32K144_Smart_BMS/Generated_Code/lpuart1.h \
  D:/S32/s32_2_2/S32K144_Smart_BMS/Generated_Code/clockMan1.h \
  D:/S32/s32_2_2/S32K144_Smart_BMS/Generated_Code/pin_mux.h \
  D:/S32/s32_2_2/S32K144_Smart_BMS/Generated_Code/lpit1.h \
  D:/S32/s32_2_2/S32K144_Smart_BMS/Generated_Code/adConv1.h \
  D:/S32/s32_2_2/S32K144_Smart_BMS/Generated_Code/lpi2c1.h \
- D:/S32/s32_2_2/S32K144_Smart_BMS/Generated_Code/canCom1.h
+ D:/S32/s32_2_2/S32K144_Smart_BMS/Generated_Code/canCom1.h \
+ D:/S32/s32_2_2/S32K144_Smart_BMS/Generated_Code/lpuart1.h
 
 D:/S32/s32_2_2/S32K144_Smart_BMS/Generated_Code/Cpu.h:
 
@@ -73,13 +74,13 @@ D:/S32/s32_2_2/S32DS/software/S32SDK_S32K1xx_RTM_3.0.0/platform/drivers/inc/flex
 
 D:/S32/s32_2_2/S32DS/software/S32SDK_S32K1xx_RTM_3.0.0/platform/drivers/inc/edma_driver.h:
 
-D:/S32/s32_2_2/S32DS/software/S32SDK_S32K1xx_RTM_3.0.0/platform/drivers/inc/lpuart_driver.h:
-
 D:/S32/s32_2_2/S32DS/software/S32SDK_S32K1xx_RTM_3.0.0/platform/drivers/inc/lpi2c_driver.h:
 
 D:/S32/s32_2_2/S32DS/software/S32SDK_S32K1xx_RTM_3.0.0/platform/drivers/inc/adc_driver.h:
 
 D:/S32/s32_2_2/S32DS/software/S32SDK_S32K1xx_RTM_3.0.0/platform/drivers/inc/lpit_driver.h:
+
+D:/S32/s32_2_2/S32DS/software/S32SDK_S32K1xx_RTM_3.0.0/platform/drivers/inc/lpuart_driver.h:
 
 D:/S32/s32_2_2/S32DS/software/S32SDK_S32K1xx_RTM_3.0.0/platform/devices/S32K144/startup/system_S32K144.h:
 
@@ -97,13 +98,13 @@ D:/S32/s32_2_2/S32K144_Smart_BMS/Generated_Code/dmaController1.h:
 
 D:/S32/s32_2_2/S32K144_Smart_BMS/Generated_Code/canCom1.h:
 
-D:/S32/s32_2_2/S32K144_Smart_BMS/Generated_Code/lpuart1.h:
-
 D:/S32/s32_2_2/S32K144_Smart_BMS/Generated_Code/lpi2c1.h:
 
 D:/S32/s32_2_2/S32K144_Smart_BMS/Generated_Code/adConv1.h:
 
 D:/S32/s32_2_2/S32K144_Smart_BMS/Generated_Code/lpit1.h:
+
+D:/S32/s32_2_2/S32K144_Smart_BMS/Generated_Code/lpuart1.h:
 
 D:/S32/s32_2_2/S32K144_Smart_BMS/Generated_Code/clockMan1.h:
 
@@ -116,3 +117,5 @@ D:/S32/s32_2_2/S32K144_Smart_BMS/Generated_Code/adConv1.h:
 D:/S32/s32_2_2/S32K144_Smart_BMS/Generated_Code/lpi2c1.h:
 
 D:/S32/s32_2_2/S32K144_Smart_BMS/Generated_Code/canCom1.h:
+
+D:/S32/s32_2_2/S32K144_Smart_BMS/Generated_Code/lpuart1.h:

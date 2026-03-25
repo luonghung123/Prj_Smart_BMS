@@ -48,7 +48,7 @@ all: S32K144_Smart_BMS.elf secondary-outputs
 S32K144_Smart_BMS.elf: $(OBJS) D:\S32\s32_2_2\S32DS\software\S32SDK_S32K1xx_RTM_3.0.0\platform\devices\S32K144\linker\gcc\S32K144_64_flash.ld $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: Standard S32DS C Linker'
-	arm-none-eabi-gcc -o "S32K144_Smart_BMS.elf" "@S32K144_Smart_BMS.args"  $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -o "S32K144_Smart_BMS.elf" "@S32K144_Smart_BMS.args"  $(USER_OBJS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 

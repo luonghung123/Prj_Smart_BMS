@@ -7,7 +7,7 @@
 **     Version     : Component SDK_S32K1xx_15, Driver 01.00, CPU db: 3.00.000
 **     Repository  : SDK_S32K1xx_15
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2026-03-22, 16:22, # CodeGen: 0
+**     Date/Time   : 2026-03-25, 22:55, # CodeGen: 11
 **
 **     Copyright 1997 - 2015 Freescale Semiconductor, Inc. 
 **     Copyright 2016-2017 NXP 
@@ -73,12 +73,17 @@ const adc_chan_config_t adConv1_ChnConfig1 = {
 
 const adc_chan_config_t adConv1_ChnConfig2 = {
   .interruptEnable = false,
-  .channel = ADC_INPUTCHAN_EXT6,
+  .channel = ADC_INPUTCHAN_EXT2,
 };
 
 const adc_chan_config_t adConv1_ChnConfig3 = {
   .interruptEnable = false,
-  .channel = ADC_INPUTCHAN_EXT7,
+  .channel = ADC_INPUTCHAN_EXT3,
+};
+
+const adc_chan_config_t adConv1_ChnConfig4 = {
+  .interruptEnable = false,
+  .channel = ADC_INPUTCHAN_EXT4,
 };
 
 const adc_compare_config_t adConv1_HwCompConfig0 = {

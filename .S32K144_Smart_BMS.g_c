@@ -27,6 +27,12 @@
         <Line>SDK\platform\devices\S32K144\startup\system_S32K144.c=D:\S32\s32_2_2\eclipse\ProcessorExpert\..\..\S32DS\software\S32SDK_S32K1xx_RTM_3.0.0\platform\devices\S32K144\startup\system_S32K144.c</Line>
         <Line>SDK\platform\devices\S32K144\include\S32K144_features.h=D:\S32\s32_2_2\eclipse\ProcessorExpert\..\..\S32DS\software\S32SDK_S32K1xx_RTM_3.0.0\platform\devices\S32K144\include\S32K144_features.h</Line>
         <Line>SDK\platform\devices\S32K144\include\S32K144.h=D:\S32\s32_2_2\eclipse\ProcessorExpert\..\..\S32DS\software\S32SDK_S32K1xx_RTM_3.0.0\platform\devices\S32K144\include\S32K144.h</Line>
+        <Line>SDK\platform\drivers\src\lpuart\lpuart_hw_access.c=D:\S32\s32_2_2\eclipse\ProcessorExpert\..\..\S32DS\software\S32SDK_S32K1xx_RTM_3.0.0\platform\drivers\src\lpuart\lpuart_hw_access.c</Line>
+        <Line>SDK\platform\drivers\src\lpuart\lpuart_hw_access.h=D:\S32\s32_2_2\eclipse\ProcessorExpert\..\..\S32DS\software\S32SDK_S32K1xx_RTM_3.0.0\platform\drivers\src\lpuart\lpuart_hw_access.h</Line>
+        <Line>SDK\platform\drivers\src\lpuart\lpuart_driver.c=D:\S32\s32_2_2\eclipse\ProcessorExpert\..\..\S32DS\software\S32SDK_S32K1xx_RTM_3.0.0\platform\drivers\src\lpuart\lpuart_driver.c</Line>
+        <Line>SDK\platform\drivers\src\lpuart\lpuart_irq.c=D:\S32\s32_2_2\eclipse\ProcessorExpert\..\..\S32DS\software\S32SDK_S32K1xx_RTM_3.0.0\platform\drivers\src\lpuart\lpuart_irq.c</Line>
+        <Line>SDK\platform\drivers\src\lpuart\lpuart_irq.h=D:\S32\s32_2_2\eclipse\ProcessorExpert\..\..\S32DS\software\S32SDK_S32K1xx_RTM_3.0.0\platform\drivers\src\lpuart\lpuart_irq.h</Line>
+        <Line>SDK\platform\drivers\inc\lpuart_driver.h=D:\S32\s32_2_2\eclipse\ProcessorExpert\..\..\S32DS\software\S32SDK_S32K1xx_RTM_3.0.0\platform\drivers\inc\lpuart_driver.h</Line>
         <Line>SDK\platform\drivers\src\lpit\lpit_driver.c=D:\S32\s32_2_2\eclipse\ProcessorExpert\..\..\S32DS\software\S32SDK_S32K1xx_RTM_3.0.0\platform\drivers\src\lpit\lpit_driver.c</Line>
         <Line>SDK\platform\drivers\src\lpit\lpit_hw_access.h=D:\S32\s32_2_2\eclipse\ProcessorExpert\..\..\S32DS\software\S32SDK_S32K1xx_RTM_3.0.0\platform\drivers\src\lpit\lpit_hw_access.h</Line>
         <Line>SDK\platform\drivers\inc\lpit_driver.h=D:\S32\s32_2_2\eclipse\ProcessorExpert\..\..\S32DS\software\S32SDK_S32K1xx_RTM_3.0.0\platform\drivers\inc\lpit_driver.h</Line>
@@ -39,12 +45,6 @@
         <Line>SDK\platform\drivers\src\lpi2c\lpi2c_hw_access.c=D:\S32\s32_2_2\eclipse\ProcessorExpert\..\..\S32DS\software\S32SDK_S32K1xx_RTM_3.0.0\platform\drivers\src\lpi2c\lpi2c_hw_access.c</Line>
         <Line>SDK\platform\drivers\src\lpi2c\lpi2c_hw_access.h=D:\S32\s32_2_2\eclipse\ProcessorExpert\..\..\S32DS\software\S32SDK_S32K1xx_RTM_3.0.0\platform\drivers\src\lpi2c\lpi2c_hw_access.h</Line>
         <Line>SDK\platform\drivers\inc\lpi2c_driver.h=D:\S32\s32_2_2\eclipse\ProcessorExpert\..\..\S32DS\software\S32SDK_S32K1xx_RTM_3.0.0\platform\drivers\inc\lpi2c_driver.h</Line>
-        <Line>SDK\platform\drivers\src\lpuart\lpuart_hw_access.c=D:\S32\s32_2_2\eclipse\ProcessorExpert\..\..\S32DS\software\S32SDK_S32K1xx_RTM_3.0.0\platform\drivers\src\lpuart\lpuart_hw_access.c</Line>
-        <Line>SDK\platform\drivers\src\lpuart\lpuart_hw_access.h=D:\S32\s32_2_2\eclipse\ProcessorExpert\..\..\S32DS\software\S32SDK_S32K1xx_RTM_3.0.0\platform\drivers\src\lpuart\lpuart_hw_access.h</Line>
-        <Line>SDK\platform\drivers\src\lpuart\lpuart_driver.c=D:\S32\s32_2_2\eclipse\ProcessorExpert\..\..\S32DS\software\S32SDK_S32K1xx_RTM_3.0.0\platform\drivers\src\lpuart\lpuart_driver.c</Line>
-        <Line>SDK\platform\drivers\src\lpuart\lpuart_irq.c=D:\S32\s32_2_2\eclipse\ProcessorExpert\..\..\S32DS\software\S32SDK_S32K1xx_RTM_3.0.0\platform\drivers\src\lpuart\lpuart_irq.c</Line>
-        <Line>SDK\platform\drivers\src\lpuart\lpuart_irq.h=D:\S32\s32_2_2\eclipse\ProcessorExpert\..\..\S32DS\software\S32SDK_S32K1xx_RTM_3.0.0\platform\drivers\src\lpuart\lpuart_irq.h</Line>
-        <Line>SDK\platform\drivers\inc\lpuart_driver.h=D:\S32\s32_2_2\eclipse\ProcessorExpert\..\..\S32DS\software\S32SDK_S32K1xx_RTM_3.0.0\platform\drivers\inc\lpuart_driver.h</Line>
         <Line>SDK\platform\drivers\src\flexcan\flexcan_hw_access.c=D:\S32\s32_2_2\eclipse\ProcessorExpert\..\..\S32DS\software\S32SDK_S32K1xx_RTM_3.0.0\platform\drivers\src\flexcan\flexcan_hw_access.c</Line>
         <Line>SDK\platform\drivers\src\flexcan\flexcan_hw_access.h=D:\S32\s32_2_2\eclipse\ProcessorExpert\..\..\S32DS\software\S32SDK_S32K1xx_RTM_3.0.0\platform\drivers\src\flexcan\flexcan_hw_access.h</Line>
         <Line>SDK\platform\drivers\src\flexcan\flexcan_driver.c=D:\S32\s32_2_2\eclipse\ProcessorExpert\..\..\S32DS\software\S32SDK_S32K1xx_RTM_3.0.0\platform\drivers\src\flexcan\flexcan_driver.c</Line>
@@ -104,15 +104,15 @@
         <Line>csec1</Line>
         <Line>dmaController1</Line>
         <Line>canCom1</Line>
-        <Line>lpuart1</Line>
         <Line>lpi2c1</Line>
         <Line>adConv1</Line>
         <Line>lpit1</Line>
+        <Line>lpuart1</Line>
       </GenBeanModules>
     </GenFiles>
     <SignalListFile />
     <DestinationCompiler>GNUC</DestinationCompiler>
-    <ProjectModificationStamp>83</ProjectModificationStamp>
+    <ProjectModificationStamp>87</ProjectModificationStamp>
   </Options>
   <CpuID_50>
     <Generated>true</Generated>
@@ -120,7 +120,7 @@
     <GenComponentVersion>01.197</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule>Events</GenEventModule>
-    <HeaderAge>1551270618</HeaderAge>
+    <HeaderAge>1551464937</HeaderAge>
     <CodeAge>1551270618</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>3</GenNumMethods>
@@ -153,8 +153,8 @@
     <GenComponentVersion>1.2.0</GenComponentVersion>
     <GenDriverVersion>1.4</GenDriverVersion>
     <GenEventModule />
-    <HeaderAge>1551270618</HeaderAge>
-    <CodeAge>1551270618</CodeAge>
+    <HeaderAge>1551464721</HeaderAge>
+    <CodeAge>1551464721</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>25</GenNumMethods>
     <PINS_DRV_Init>true</PINS_DRV_Init>
@@ -454,48 +454,6 @@
     <ExtraFile4>D:\S32\s32_2_2\S32K144_Smart_BMS\SDK\platform\drivers\src\flexcan\flexcan_hw_access.h</ExtraFile4>
     <ExtraFile5>D:\S32\s32_2_2\S32K144_Smart_BMS\SDK\platform\drivers\src\flexcan\flexcan_hw_access.c</ExtraFile5>
   </ComponentID_96>
-  <ComponentID_99>
-    <Generated>true</Generated>
-    <GenCompName>lpuart1</GenCompName>
-    <GenComponentVersion>SDK_S32K1xx_15</GenComponentVersion>
-    <GenDriverVersion>01.00</GenDriverVersion>
-    <GenEventModule />
-    <HeaderAge>1551270618</HeaderAge>
-    <CodeAge>1551270618</CodeAge>
-    <AsemblAge>-1</AsemblAge>
-    <GenNumMethods>19</GenNumMethods>
-    <LPUART_DRV_GetDefaultConfig>true</LPUART_DRV_GetDefaultConfig>
-    <LPUART_DRV_Init>true</LPUART_DRV_Init>
-    <LPUART_DRV_Deinit>true</LPUART_DRV_Deinit>
-    <LPUART_DRV_InstallRxCallback>true</LPUART_DRV_InstallRxCallback>
-    <LPUART_DRV_InstallTxCallback>true</LPUART_DRV_InstallTxCallback>
-    <LPUART_DRV_SendDataBlocking>true</LPUART_DRV_SendDataBlocking>
-    <LPUART_DRV_SendDataPolling>true</LPUART_DRV_SendDataPolling>
-    <LPUART_DRV_SendData>true</LPUART_DRV_SendData>
-    <LPUART_DRV_GetTransmitStatus>true</LPUART_DRV_GetTransmitStatus>
-    <LPUART_DRV_AbortSendingData>true</LPUART_DRV_AbortSendingData>
-    <LPUART_DRV_ReceiveDataBlocking>true</LPUART_DRV_ReceiveDataBlocking>
-    <LPUART_DRV_ReceiveDataPolling>true</LPUART_DRV_ReceiveDataPolling>
-    <LPUART_DRV_ReceiveData>true</LPUART_DRV_ReceiveData>
-    <LPUART_DRV_GetReceiveStatus>true</LPUART_DRV_GetReceiveStatus>
-    <LPUART_DRV_AbortReceivingData>true</LPUART_DRV_AbortReceivingData>
-    <LPUART_DRV_SetBaudRate>true</LPUART_DRV_SetBaudRate>
-    <LPUART_DRV_GetBaudRate>true</LPUART_DRV_GetBaudRate>
-    <LPUART_DRV_SetTxBuffer>true</LPUART_DRV_SetTxBuffer>
-    <LPUART_DRV_SetRxBuffer>true</LPUART_DRV_SetRxBuffer>
-    <GenNumEvents>0</GenNumEvents>
-    <GenSmartUserChangesDetected_Header>false</GenSmartUserChangesDetected_Header>
-    <GenSmartUserChangesDetected_Code>false</GenSmartUserChangesDetected_Code>
-    <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
-    <GenMethodPos>0</GenMethodPos>
-    <GenExtraFilesCount>6</GenExtraFilesCount>
-    <ExtraFile0>D:\S32\s32_2_2\S32K144_Smart_BMS\SDK\platform\drivers\inc\lpuart_driver.h</ExtraFile0>
-    <ExtraFile1>D:\S32\s32_2_2\S32K144_Smart_BMS\SDK\platform\drivers\src\lpuart\lpuart_irq.h</ExtraFile1>
-    <ExtraFile2>D:\S32\s32_2_2\S32K144_Smart_BMS\SDK\platform\drivers\src\lpuart\lpuart_irq.c</ExtraFile2>
-    <ExtraFile3>D:\S32\s32_2_2\S32K144_Smart_BMS\SDK\platform\drivers\src\lpuart\lpuart_driver.c</ExtraFile3>
-    <ExtraFile4>D:\S32\s32_2_2\S32K144_Smart_BMS\SDK\platform\drivers\src\lpuart\lpuart_hw_access.h</ExtraFile4>
-    <ExtraFile5>D:\S32\s32_2_2\S32K144_Smart_BMS\SDK\platform\drivers\src\lpuart\lpuart_hw_access.c</ExtraFile5>
-  </ComponentID_99>
   <ComponentID_100>
     <Generated>true</Generated>
     <GenCompName>lpi2c1</GenCompName>
@@ -550,8 +508,8 @@
     <GenComponentVersion>SDK_S32K1xx_15</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule />
-    <HeaderAge>1551270618</HeaderAge>
-    <CodeAge>1551270618</CodeAge>
+    <HeaderAge>1551480576</HeaderAge>
+    <CodeAge>1551480576</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>25</GenNumMethods>
     <ADC_DRV_InitConverterStruct>true</ADC_DRV_InitConverterStruct>
@@ -628,6 +586,48 @@
     <ExtraFile1>D:\S32\s32_2_2\S32K144_Smart_BMS\SDK\platform\drivers\src\lpit\lpit_hw_access.h</ExtraFile1>
     <ExtraFile2>D:\S32\s32_2_2\S32K144_Smart_BMS\SDK\platform\drivers\src\lpit\lpit_driver.c</ExtraFile2>
   </ComponentID_102>
+  <ComponentID_105>
+    <Generated>true</Generated>
+    <GenCompName>lpuart1</GenCompName>
+    <GenComponentVersion>SDK_S32K1xx_15</GenComponentVersion>
+    <GenDriverVersion>01.00</GenDriverVersion>
+    <GenEventModule />
+    <HeaderAge>1551464937</HeaderAge>
+    <CodeAge>1551464937</CodeAge>
+    <AsemblAge>-1</AsemblAge>
+    <GenNumMethods>19</GenNumMethods>
+    <LPUART_DRV_GetDefaultConfig>true</LPUART_DRV_GetDefaultConfig>
+    <LPUART_DRV_Init>true</LPUART_DRV_Init>
+    <LPUART_DRV_Deinit>true</LPUART_DRV_Deinit>
+    <LPUART_DRV_InstallRxCallback>true</LPUART_DRV_InstallRxCallback>
+    <LPUART_DRV_InstallTxCallback>true</LPUART_DRV_InstallTxCallback>
+    <LPUART_DRV_SendDataBlocking>true</LPUART_DRV_SendDataBlocking>
+    <LPUART_DRV_SendDataPolling>true</LPUART_DRV_SendDataPolling>
+    <LPUART_DRV_SendData>true</LPUART_DRV_SendData>
+    <LPUART_DRV_GetTransmitStatus>true</LPUART_DRV_GetTransmitStatus>
+    <LPUART_DRV_AbortSendingData>true</LPUART_DRV_AbortSendingData>
+    <LPUART_DRV_ReceiveDataBlocking>true</LPUART_DRV_ReceiveDataBlocking>
+    <LPUART_DRV_ReceiveDataPolling>true</LPUART_DRV_ReceiveDataPolling>
+    <LPUART_DRV_ReceiveData>true</LPUART_DRV_ReceiveData>
+    <LPUART_DRV_GetReceiveStatus>true</LPUART_DRV_GetReceiveStatus>
+    <LPUART_DRV_AbortReceivingData>true</LPUART_DRV_AbortReceivingData>
+    <LPUART_DRV_SetBaudRate>true</LPUART_DRV_SetBaudRate>
+    <LPUART_DRV_GetBaudRate>true</LPUART_DRV_GetBaudRate>
+    <LPUART_DRV_SetTxBuffer>true</LPUART_DRV_SetTxBuffer>
+    <LPUART_DRV_SetRxBuffer>true</LPUART_DRV_SetRxBuffer>
+    <GenNumEvents>0</GenNumEvents>
+    <GenSmartUserChangesDetected_Header>false</GenSmartUserChangesDetected_Header>
+    <GenSmartUserChangesDetected_Code>false</GenSmartUserChangesDetected_Code>
+    <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
+    <GenMethodPos>0</GenMethodPos>
+    <GenExtraFilesCount>6</GenExtraFilesCount>
+    <ExtraFile0>D:\S32\s32_2_2\S32K144_Smart_BMS\SDK\platform\drivers\inc\lpuart_driver.h</ExtraFile0>
+    <ExtraFile1>D:\S32\s32_2_2\S32K144_Smart_BMS\SDK\platform\drivers\src\lpuart\lpuart_irq.h</ExtraFile1>
+    <ExtraFile2>D:\S32\s32_2_2\S32K144_Smart_BMS\SDK\platform\drivers\src\lpuart\lpuart_irq.c</ExtraFile2>
+    <ExtraFile3>D:\S32\s32_2_2\S32K144_Smart_BMS\SDK\platform\drivers\src\lpuart\lpuart_driver.c</ExtraFile3>
+    <ExtraFile4>D:\S32\s32_2_2\S32K144_Smart_BMS\SDK\platform\drivers\src\lpuart\lpuart_hw_access.h</ExtraFile4>
+    <ExtraFile5>D:\S32\s32_2_2\S32K144_Smart_BMS\SDK\platform\drivers\src\lpuart\lpuart_hw_access.c</ExtraFile5>
+  </ComponentID_105>
   <UsedSrcFiles>
     <SrcFile0>Drivers\interrupt_manager.src=-1</SrcFile0>
     <SrcFile1>Drivers\osifcommon\osif.drv=-1</SrcFile1>

@@ -7,7 +7,7 @@
 **     Version     : Component SDK_S32K1xx_15, Driver 01.00, CPU db: 3.00.000
 **     Repository  : SDK_S32K1xx_15
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2026-03-22, 16:22, # CodeGen: 0
+**     Date/Time   : 2026-03-25, 15:15, # CodeGen: 2
 **     Abstract    :
 **
 **     Contents    :
@@ -76,7 +76,7 @@
 #include "Cpu.h"
 
 /*! @brief Device instance number */
-#define INST_LPUART1 (0U)
+#define INST_LPUART1 (1U)
 
 /*! Driver state structure */
 extern lpuart_state_t lpuart1_State;
