@@ -3,7 +3,7 @@
   <Header>
     <Name>S32K144_Smart_BMS</Name>
     <SavedBy>B55288</SavedBy>
-    <ModificationStamp>87</ModificationStamp>
+    <ModificationStamp>88</ModificationStamp>
     <Date>2015-10-14</Date>
     <IDE>Eclipse IDE</IDE>
     <PEversion>1.12.2.RT7_b1743-0713</PEversion>
@@ -12285,7 +12285,7 @@
         <ItemSymbol>PeripheralClocksCount0</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <Value>19</Value>
+        <Value>20</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>PeripheralClocksGrp0</ItemSymbol>
@@ -13113,8 +13113,8 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>false</Value>
-        <Expanded>false</Expanded>
+        <Value>true</Value>
+        <Expanded>true</Expanded>
       </ItemState>
       <ItemState>
         <ItemSymbol>Peripheral27_CLOCK_NAME0</ItemSymbol>
@@ -13147,7 +13147,7 @@
       </ItemState>
       <ItemState>
         <ItemSymbol>Peripheral27_FUNC_CLK0</ItemSymbol>
-        <Value>0 Hz</Value>
+        <Value>8 MHz</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>Peripheral13_CLK_Grp0</ItemSymbol>
@@ -16038,7 +16038,7 @@
       </ItemState>
       <ItemState>
         <ItemSymbol>LPI2C_0_CLOCK_GATE_0</ItemSymbol>
-        <Value>'off'</Value>
+        <Value>'on'</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>LPIT_0_CLOCK_GATE_0</ItemSymbol>
@@ -16140,7 +16140,7 @@
       </ItemState>
       <ItemState>
         <ItemSymbol>LPI2C0_CLK0</ItemSymbol>
-        <Value>0</Value>
+        <Value>8000000</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>LPIT0_CLK0</ItemSymbol>
@@ -16281,7 +16281,7 @@
         <ItemSymbol>ProjectComponentsCountChanged</ItemSymbol>
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
-        <Value>1</Value>
+        <Value>2</Value>
       </ItemState>
       <ItemState>
         <ItemSymbol>ModuleName_ADC</ItemSymbol>
